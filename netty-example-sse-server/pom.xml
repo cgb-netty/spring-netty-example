@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.wangzihaogithub</groupId>
-    <artifactId>netty-example-websocket-server</artifactId>
+    <artifactId>netty-example-sse-server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>netty-example-websocket-server</name>
+    <name>netty-example-sse-server</name>
     <description>Demo project for Netty</description>
 
     <properties>
@@ -20,8 +20,8 @@
     <dependencies>
         <dependency>
             <groupId>com.github.wangzihaogithub</groupId>
-            <artifactId>spring-boot-protocol</artifactId>
-            <version>2.2.1</version>
+            <artifactId>sse-server</artifactId>
+            <version>1.0.3</version>
         </dependency>
 
         <!--springboot web依赖-->
@@ -29,18 +29,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
             <version>2.5.12</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-websocket</artifactId>
-            <version>2.1.2.RELEASE</version>
-        </dependency>
-
-        <dependency>
-            <groupId>javax.websocket</groupId>
-            <artifactId>javax.websocket-api</artifactId>
-            <version>1.1</version>
         </dependency>
     </dependencies>
 
